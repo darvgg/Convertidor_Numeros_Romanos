@@ -32,7 +32,7 @@ describe("No convertir numeros menores a 0", () => {
 
 describe("Convertir 584 a romano", () => {
   it("deberia convertir 584 en romano", () => {
-    expect(convertir_a_romanos(2584)).toEqual("DLXXXIV");
+    expect(convertir_a_romanos(584)).toEqual("DLXXXIV");
   });
 });
 
