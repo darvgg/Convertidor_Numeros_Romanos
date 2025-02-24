@@ -1,4 +1,4 @@
-import convertir_a_romanos from "./sumador.js";
+import convertir_a_romanos from "./num_romanos.js";
 
 describe("Convertir 1 a I", () => {
   it("deberia convertir uno en romano", () => {
