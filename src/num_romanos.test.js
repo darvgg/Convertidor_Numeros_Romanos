@@ -36,4 +36,10 @@ describe("Convertir 2584 a romano", () => {
   });
 });
 
+describe("Sobrepasa el limite", () => {
+  it("deberia convertir 5001 en romano", () => {
+    expect(convertir_a_romanos(5001)).toEqual("Se Paso de nuestro limite");
+  });
+});
+
 
