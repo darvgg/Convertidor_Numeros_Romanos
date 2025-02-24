@@ -5,7 +5,7 @@ function convertir_a_romanos(numero) {
   var resultado ="";
   
   if(numero<=0)
-    resultado="0"
+    resultado="0";
   else if( numero>=1 && numero<=5000)
   {
     for (let i = 0; i < valores.length; i++){
@@ -15,6 +15,8 @@ function convertir_a_romanos(numero) {
     }
     }
   }
+  else if (numero>5000)
+    resultado="Se Paso de nuestro limite";
   return resultado;
 }
 
