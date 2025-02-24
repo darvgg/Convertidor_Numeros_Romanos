@@ -6,4 +6,9 @@ describe("Convertir 1 a I", () => {
   });
 });
 
+describe("Convertir 5 a I", () => {
+  it("deberia convertir uno en romano", () => {
+    expect(convertir_a_romanos(5)).toEqual("V");
+  });
+});
 
