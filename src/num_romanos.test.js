@@ -18,5 +18,17 @@ describe("Convertir 9 a I", () => {
   });
 });
 
+describe("No convertir a 0", () => {
+  it("deberia convertir uno en romano", () => {
+    expect(convertir_a_romanos(0)).toEqual("0");
+  });
+});
+
+describe("No convertir numeros menores a 0", () => {
+  it("deberia convertir uno en romano", () => {
+    expect(convertir_a_romanos(-15)).toEqual("0");
+  });
+});
+
 
 
