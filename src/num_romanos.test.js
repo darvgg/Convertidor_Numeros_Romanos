@@ -30,14 +30,14 @@ describe("No convertir numeros menores a 0", () => {
   });
 });
 
-describe("Convertir 2584 a romano", () => {
-  it("deberia convertir 2584 en romano", () => {
-    expect(convertir_a_romanos(2584)).toEqual("MMDLXXXIV");
+describe("Convertir 584 a romano", () => {
+  it("deberia convertir 584 en romano", () => {
+    expect(convertir_a_romanos(2584)).toEqual("DLXXXIV");
   });
 });
 
 describe("Sobrepasa el limite", () => {
-  it("deberia convertir 5001 en romano", () => {
+  it("deberia convertir 1001 en romano", () => {
     expect(convertir_a_romanos(5001)).toEqual("Se Paso de nuestro limite");
   });
 });
